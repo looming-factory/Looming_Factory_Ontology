@@ -1,0 +1,1542 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/enric/ontologies/2021/10/looming_factory"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/enric/ontologies/2021/10/looming_factory"
+     versionIRI="http://www.semanticweb.org/enric/ontologies/2021/10/looming_factory/1.0.0">
+    <Prefix name="" IRI="http://www.semanticweb.org/enric/ontologies/2021/10/looming_factory"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actuator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CallPutBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CallPutBearing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CallPutProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computable_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computational_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computational_Device_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DMP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefPutBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefPutBearing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefPutProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Def_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DespalletizeProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestackBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestackBearing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExperimentTimeThread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GetCaps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Get_Ready"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoToReadyWayPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#If"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Initialization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InitializeVars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macro_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Move"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoveC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoveJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoveL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoveP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Particular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perdurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Comp_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Endurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality_Fluent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spatio-Temporal-Particular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimerThread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtual_Comp_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtual_Endurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waypoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#While"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WriteRegistersThread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#endIf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#endWhile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#calls"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#computes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#does"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#emergesFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#externallyLinksTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBearer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBearer2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapability2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapability3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNegEffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosEffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQualityInSomeSituation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#holdsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#internallyLinksTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInformedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPossibleIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#movesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proceeds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#startsAt"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abstract"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actuation"/>
+        <Class IRI="#Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actuator"/>
+        <Class IRI="#Physical_Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact_Quality"/>
+        <Class IRI="#Quality_Fluent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CallPutBase"/>
+        <Class IRI="#Function_Call"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CallPutBearing"/>
+        <Class IRI="#Function_Call"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CallPutProduct"/>
+        <Class IRI="#Function_Call"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capability"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computable_function"/>
+        <Class IRI="#Abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computational_Device"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computational_Device_Operation"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DMP"/>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefPutBase"/>
+        <Class IRI="#Def_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefPutBearing"/>
+        <Class IRI="#Def_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefPutProduct"/>
+        <Class IRI="#Def_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Def_Function"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DespalletizeProduct"/>
+        <Class IRI="#Get_Ready"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DestackBase"/>
+        <Class IRI="#Get_Ready"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DestackBearing"/>
+        <Class IRI="#Get_Ready"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endurant"/>
+        <Class IRI="#Spatio-Temporal-Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entity"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExperimentTimeThread"/>
+        <Class IRI="#Thread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowControl"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluent"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Call"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GetCaps"/>
+        <Class IRI="#Operator_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Get_Ready"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoToReadyWayPoint"/>
+        <Class IRI="#Get_Ready"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#If"/>
+        <Class IRI="#FlowControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Entity"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Initialization"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InitializeVars"/>
+        <Class IRI="#Initialization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macro_Operation"/>
+        <Class IRI="#Actuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Move"/>
+        <Class IRI="#Actuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoveC"/>
+        <Class IRI="#Move"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoveJ"/>
+        <Class IRI="#Move"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoveL"/>
+        <Class IRI="#Move"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoveP"/>
+        <Class IRI="#Move"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Material"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <Class IRI="#Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator_Operation"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perdurant"/>
+        <Class IRI="#Spatio-Temporal-Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Artifact"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Artifact"/>
+        <Class IRI="#Physical_Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Comp_Device"/>
+        <Class IRI="#Computational_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Comp_Device"/>
+        <Class IRI="#Physical_Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Endurant"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Popup"/>
+        <Class IRI="#Actuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Perdurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality_Fluent"/>
+        <Class IRI="#Fluent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robot"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Physical_Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set"/>
+        <Class IRI="#Actuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep"/>
+        <Class IRI="#Actuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spatio-Temporal-Particular"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCP"/>
+        <Class IRI="#Non_Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thread"/>
+        <Class IRI="#Macro_Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimerThread"/>
+        <Class IRI="#Thread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trajectory"/>
+        <Class IRI="#Non_Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual_Comp_Device"/>
+        <Class IRI="#Computational_Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual_Comp_Device"/>
+        <Class IRI="#Virtual_Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virtual_Endurant"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wait"/>
+        <Class IRI="#Actuation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waypoint"/>
+        <Class IRI="#Non_Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#While"/>
+        <Class IRI="#FlowControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WriteRegistersThread"/>
+        <Class IRI="#Thread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#endIf"/>
+        <Class IRI="#FlowControl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#endWhile"/>
+        <Class IRI="#FlowControl"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#calls"/>
+        <Class IRI="#Function_Call"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#computes"/>
+        <Class IRI="#Computational_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#does"/>
+        <Class IRI="#Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#emergesFrom"/>
+        <Class IRI="#Virtual_Endurant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#externallyLinksTo"/>
+        <Class IRI="#Computational_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBearer"/>
+        <Class IRI="#Fluent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBearer2"/>
+        <Class IRI="#Artifact_Quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapability"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapability2"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapability3"/>
+        <Class IRI="#Actuator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNegEffect"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPosEffect"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessPart"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuality"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQualityInSomeSituation"/>
+        <Class IRI="#Quality_Fluent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasResult"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#holdsIn"/>
+        <Class IRI="#Fluent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#internallyLinksTo"/>
+        <Class IRI="#Computational_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInformedBy"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPossibleIn"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#movesTo"/>
+        <Class IRI="#Move"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participates"/>
+        <Class IRI="#Computational_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#proceeds"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realizes"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#startsAt"/>
+        <Class IRI="#Robot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#calls"/>
+        <Class IRI="#Def_Function"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#computes"/>
+        <Class IRI="#Computable_function"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#does"/>
+        <Class IRI="#Operator_Operation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#emergesFrom"/>
+        <Class IRI="#Computational_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#externallyLinksTo"/>
+        <Class IRI="#Physical_Endurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBearer"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBearer2"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapability"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapability2"/>
+        <Class IRI="#Observation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapability3"/>
+        <Class IRI="#Actuation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNegEffect"/>
+        <Class IRI="#Fluent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPosEffect"/>
+        <Class IRI="#Fluent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessPart"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuality"/>
+        <Class IRI="#Quality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQualityInSomeSituation"/>
+        <Class IRI="#Quality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResult"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#holdsIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#internallyLinksTo"/>
+        <Class IRI="#Computational_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInformedBy"/>
+        <Class IRI="#Information_Entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPossibleIn"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#movesTo"/>
+        <Class IRI="#Waypoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participates"/>
+        <Class IRI="#Computational_Device_Operation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#proceeds"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realizes"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#startsAt"/>
+        <Class IRI="#TCP"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Abstract</IRI>
+        <Literal xml:lang="en">Abstract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Abstract</IRI>
+        <Literal xml:lang="cat">Abstracte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actuation</IRI>
+        <Literal xml:lang="cat">Actuació</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actuation</IRI>
+        <Literal xml:lang="en">Actuation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actuator</IRI>
+        <Literal xml:lang="cat">Actuador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actuator</IRI>
+        <Literal xml:lang="en">Actuator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="cat">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agent</IRI>
+        <Literal xml:lang="en">Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artifact</IRI>
+        <Literal xml:lang="cat">Artefacte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artifact</IRI>
+        <Literal xml:lang="en">Artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artifact_Quality</IRI>
+        <Literal xml:lang="en">Artifact_Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artifact_Quality</IRI>
+        <Literal xml:lang="cat">Qualitat_Artefacte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Capability</IRI>
+        <Literal xml:lang="en">Capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Capability</IRI>
+        <Literal xml:lang="cat">Capacitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computable_function</IRI>
+        <Literal xml:lang="en">Computable_function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computable_function</IRI>
+        <Literal xml:lang="cat">Funció_computable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computational_Device</IRI>
+        <Literal xml:lang="en">Computational_Device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computational_Device</IRI>
+        <Literal xml:lang="cat">Dispositiu_Computacional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computational_Device_Operation</IRI>
+        <Literal xml:lang="en">Computational_Device_Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computational_Device_Operation</IRI>
+        <Literal xml:lang="cat">Operació_Dispositiu_Computacional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DMP</IRI>
+        <Literal xml:lang="en">Dynamic Movement Primitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DMP</IRI>
+        <Literal xml:lang="en">DMP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Def_Function</IRI>
+        <Literal xml:lang="cat">Def_Funció</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Def_Function</IRI>
+        <Literal xml:lang="en">Def_Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Endurant</IRI>
+        <Literal xml:lang="en">Endurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entity</IRI>
+        <Literal xml:lang="cat">Entitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entity</IRI>
+        <Literal xml:lang="en">Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FlowControl</IRI>
+        <Literal xml:lang="cat">ControlFlux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FlowControl</IRI>
+        <Literal xml:lang="en">FlowControl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fluent</IRI>
+        <Literal xml:lang="en">Fluent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fluent</IRI>
+        <Literal xml:lang="cat">Predicat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Function_Call</IRI>
+        <Literal xml:lang="cat">Crida_Funció</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Function_Call</IRI>
+        <Literal xml:lang="en">Function_Call</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Get_Ready</IRI>
+        <Literal xml:lang="en">Get_Ready</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Get_Ready</IRI>
+        <Literal xml:lang="cat">Preparar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Human</IRI>
+        <Literal xml:lang="en">Human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Human</IRI>
+        <Literal xml:lang="cat">Humà</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Information_Entity</IRI>
+        <Literal xml:lang="cat">Entitat_Informació</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Information_Entity</IRI>
+        <Literal xml:lang="en">Information_Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Initialization</IRI>
+        <Literal xml:lang="cat">Inicialització</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Initialization</IRI>
+        <Literal xml:lang="en">Inicialization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Macro_Operation</IRI>
+        <Literal xml:lang="cat">Macro_Operació</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Macro_Operation</IRI>
+        <Literal xml:lang="en">Macro_Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Move</IRI>
+        <Literal xml:lang="en">Move</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MoveC</IRI>
+        <Literal xml:lang="en">MoveC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MoveJ</IRI>
+        <Literal xml:lang="en">MoveJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MoveL</IRI>
+        <Literal xml:lang="en">MoveL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MoveP</IRI>
+        <Literal xml:lang="en">MoveP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Non_Material</IRI>
+        <Literal xml:lang="cat">No_Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Non_Material</IRI>
+        <Literal xml:lang="en">Non_Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="cat">Observació</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en">Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operator</IRI>
+        <Literal xml:lang="cat">Operador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operator</IRI>
+        <Literal xml:lang="en">Operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operator_Operation</IRI>
+        <Literal xml:lang="cat">Operació_Operador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operator_Operation</IRI>
+        <Literal xml:lang="en">Operator_Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Particular</IRI>
+        <Literal xml:lang="cat">Particular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Particular</IRI>
+        <Literal xml:lang="en">Particular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perdurant</IRI>
+        <Literal xml:lang="en">Perdurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_Artifact</IRI>
+        <Literal xml:lang="cat">Artefacte_Físic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_Artifact</IRI>
+        <Literal xml:lang="en">Physical_Artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_Comp_Device</IRI>
+        <Literal xml:lang="cat">Dispositiu_Comp_Físic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_Comp_Device</IRI>
+        <Literal xml:lang="en">Physical_Comp_Device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_Endurant</IRI>
+        <Literal xml:lang="en">Physical_Endurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Process</IRI>
+        <Literal xml:lang="en">Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Process</IRI>
+        <Literal xml:lang="cat">Procés</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quality</IRI>
+        <Literal xml:lang="cat">Qualitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quality</IRI>
+        <Literal xml:lang="en">Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quality_Fluent</IRI>
+        <Literal xml:lang="cat">Predicat_Qualitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quality_Fluent</IRI>
+        <Literal xml:lang="en">Quality_Fluent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Robot</IRI>
+        <Literal xml:lang="cat">Robot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Robot</IRI>
+        <Literal xml:lang="en">Robot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensor</IRI>
+        <Literal xml:lang="cat">Sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensor</IRI>
+        <Literal xml:lang="en">Sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Set</IRI>
+        <Literal xml:lang="en">Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="cat">Situació</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="en">Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spatio-Temporal-Particular</IRI>
+        <Literal xml:lang="cat">Particular-Espai-Temporal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spatio-Temporal-Particular</IRI>
+        <Literal xml:lang="en">Spatio-Temporal-Particular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TCP</IRI>
+        <Literal xml:lang="cat">PCE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TCP</IRI>
+        <Literal xml:lang="en">TCP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thread</IRI>
+        <Literal xml:lang="cat">Fil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thread</IRI>
+        <Literal xml:lang="en">Thread</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Trajectory</IRI>
+        <Literal xml:lang="en">Trajectory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Trajectory</IRI>
+        <Literal xml:lang="cat">Trajectòria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Virtual_Comp_Device</IRI>
+        <Literal xml:lang="cat">Dispositiu_Comp_Virtual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Virtual_Comp_Device</IRI>
+        <Literal xml:lang="en">Virtual_Comp_Device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Virtual_Endurant</IRI>
+        <Literal xml:lang="en">Virtual_Endurant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wait</IRI>
+        <Literal xml:lang="en">Wait</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Waypoint</IRI>
+        <Literal xml:lang="cat">Punt_De_Pas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Waypoint</IRI>
+        <Literal xml:lang="en">Waypoint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#calls</IRI>
+        <Literal xml:lang="en">calls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#calls</IRI>
+        <Literal xml:lang="cat">crida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#computes</IRI>
+        <Literal xml:lang="cat">computa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#computes</IRI>
+        <Literal xml:lang="en">computes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#does</IRI>
+        <Literal xml:lang="en">does</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#does</IRI>
+        <Literal xml:lang="cat">fa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#emergesFrom</IRI>
+        <Literal xml:lang="en">emerges_from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#emergesFrom</IRI>
+        <Literal xml:lang="cat">sorgeix_de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#externallyLinksTo</IRI>
+        <Literal xml:lang="cat">enllaçaExternament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#externallyLinksTo</IRI>
+        <Literal xml:lang="en">externallyLinksTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasBearer</IRI>
+        <Literal xml:lang="en">hasBearer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasBearer</IRI>
+        <Literal xml:lang="cat">téPortador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasBearer2</IRI>
+        <Literal xml:lang="en">hasBearer2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasBearer2</IRI>
+        <Literal xml:lang="cat">téPortador2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCapability</IRI>
+        <Literal xml:lang="en">hasCapability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCapability</IRI>
+        <Literal xml:lang="cat">téCapacitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCapability2</IRI>
+        <Literal xml:lang="en">hasCapability2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCapability2</IRI>
+        <Literal xml:lang="cat">téCapacitat2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCapability3</IRI>
+        <Literal xml:lang="en">hasCapability3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCapability3</IRI>
+        <Literal xml:lang="cat">téCapacitat3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasComponent</IRI>
+        <Literal xml:lang="en">hasComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasComponent</IRI>
+        <Literal xml:lang="cat">téComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasNegEffect</IRI>
+        <Literal xml:lang="en">hasNegEffect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasNegEffect</IRI>
+        <Literal xml:lang="cat">téEfecteNeg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPosEffect</IRI>
+        <Literal xml:lang="en">hasPosEffect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPosEffect</IRI>
+        <Literal xml:lang="cat">téEfectePos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasProcessPart</IRI>
+        <Literal xml:lang="en">hasProcessPart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasProcessPart</IRI>
+        <Literal xml:lang="cat">téPartProcés</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasQuality</IRI>
+        <Literal xml:lang="en">hasQuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasQuality</IRI>
+        <Literal xml:lang="cat">téQualitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasQualityInSomeSituation</IRI>
+        <Literal xml:lang="en">hasQualityInSomeSituation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasQualityInSomeSituation</IRI>
+        <Literal xml:lang="cat">téQualitatEnAlgunaSituació</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasResult</IRI>
+        <Literal xml:lang="en">hasResult</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasResult</IRI>
+        <Literal xml:lang="cat">téResultat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#holdsIn</IRI>
+        <Literal xml:lang="cat">EsMantéA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#holdsIn</IRI>
+        <Literal xml:lang="en">holdsIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#internallyLinksTo</IRI>
+        <Literal xml:lang="cat">EnllaçaInternament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#internallyLinksTo</IRI>
+        <Literal xml:lang="en">InternallyLinksTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isInformedBy</IRI>
+        <Literal xml:lang="en">isInformedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isInformedBy</IRI>
+        <Literal xml:lang="cat">ésInformatPer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPossibleIn</IRI>
+        <Literal xml:lang="en">isPossibleIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPossibleIn</IRI>
+        <Literal xml:lang="cat">ésPossibleA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#movesTo</IRI>
+        <Literal xml:lang="cat">esMouA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#movesTo</IRI>
+        <Literal xml:lang="en">movesTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#participates</IRI>
+        <Literal xml:lang="cat">participa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#participates</IRI>
+        <Literal xml:lang="en">participates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#proceeds</IRI>
+        <Literal xml:lang="cat">procedeix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#proceeds</IRI>
+        <Literal xml:lang="en">proceeds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#realizes</IRI>
+        <Literal xml:lang="cat">realitza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#realizes</IRI>
+        <Literal xml:lang="en">realizes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#startsAt</IRI>
+        <Literal xml:lang="cat">començaA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#startsAt</IRI>
+        <Literal xml:lang="en">startsAt</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
